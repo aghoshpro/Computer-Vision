@@ -16,8 +16,8 @@ This particular project detects objects using the mobileNet SSD method. Therefor
 
 ### Output
 
-#### Output 01
+#### Output 01 (at 55% detection accuracy)
 https://user-images.githubusercontent.com/71174892/196672496-30e54277-dfee-425e-add1-73aedeaefccd.mp4
 
-#### Output 02
+#### Output 02 (at 60% detection accuracy)
 https://user-images.githubusercontent.com/71174892/196671666-5cba1fa3-e1b7-4f75-83d9-a55d4e4aabe0.mp4
