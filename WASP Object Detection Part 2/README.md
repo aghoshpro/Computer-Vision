@@ -12,7 +12,7 @@ This particular project detects objects using the mobileNet SSD method. Therefor
 ### Output
 
 #### Output 01
-https://user-images.githubusercontent.com/71174892/196668206-004059e0-b1c9-4d19-823d-237aa0a582b3.mp4
+https://user-images.githubusercontent.com/71174892/196672496-30e54277-dfee-425e-add1-73aedeaefccd.mp4
 
 #### Output 02
 https://user-images.githubusercontent.com/71174892/196671666-5cba1fa3-e1b7-4f75-83d9-a55d4e4aabe0.mp4
