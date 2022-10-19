@@ -1,6 +1,9 @@
 import cv2
 
-video = cv2.VideoCapture(1) #Webcam ID
+video = cv2.VideoCapture(0) #Webcam ID 0 or 1
+
+# Parameters for tuning
+detectionThresholdValue = 0.6 #0.6 means, detection accuracy 60%, if the model detects a PEN with equal or more than 50% accuracy then it will show the output
 
 # Video Output Ratio
 video.set(3, 1280)
@@ -8,7 +11,7 @@ video.set(4, 720)
 
 # Importing list of categories from the coco.names
 categories=[]
-categoryFilename = 'coco.names'
+categoryFilename = 'cocoLARGE.names'
 
 with open(categoryFilename, 'rt') as f:
     categories = f.read().rstrip('\n').split('\n') # read the file f and strip ans split the name based on new line (\n)
@@ -28,7 +31,7 @@ model_01.setInputSwapRB(True)
 
 while True: 
     success, img = video.read()
-    categoryIDs, confidence, bbox = model_01.detect(img, confThreshold=0.5) # list of three parameters, confThreshold=0.5 means, detection accuracy 50%, if the model detects a PEN with equal or more than 50% accuracy then it will show the output
+    categoryIDs, confidence, bbox = model_01.detect(img, confThreshold=detectionThresholdValue) # list of three parameters, confThreshold=
     print(categoryIDs, bbox) # [1] [[ 60  40 373 461]], here 1 means 1st name in the coco.names
     
     if len(categoryIDs)!= 0: 
