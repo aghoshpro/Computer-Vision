@@ -6,6 +6,11 @@ This particular project detects objects using the mobileNet SSD method. Therefor
 * ‘ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt’ 
 * ‘frozen_inference_graph.pb’.
 
+### **Reading Materials**
+
+[Object Detection using SSD Mobilenet and Tensorflow Object Detection](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
+
+************************************************************************************************************************************************************************
 [COCO (Common Objects In Context)](https://cocodataset.org/#home): is a set of challenging, high quality datasets for computer vision, mostly state-of-the-art neural networks. This name is also used to name a format used by those datasets.
 
 ### Dataset
