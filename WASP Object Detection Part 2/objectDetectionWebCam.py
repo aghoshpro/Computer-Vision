@@ -6,8 +6,8 @@ video = cv2.VideoCapture(0) #Webcam ID 0 or 1
 detectionThresholdValue = 0.6 #0.6 means, detection accuracy 60%, if the model detects a PEN with equal or more than 50% accuracy then it will show the output
 
 # Video Output Ratio
-video.set(3, 640)
-video.set(4, 480)
+video.set(3, 1280)
+video.set(4, 720)
 
 # Importing list of categories from the coco.names
 categories=[]
