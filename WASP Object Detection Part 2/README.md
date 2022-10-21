@@ -4,6 +4,12 @@
 
 ### Install ```OpenCV```
 
+```pip install opencv-python```
+
+We used ```opencv-python``` 4.6.0.66, which requires ```numpy``` 1.17.3 or later.
+The requiremenets are included in ```requirements.txt```.
+
+
 ### There are two codes 
 
 1. ```objectDetectionVideo.py```: The first one can take any video as an input and detect objects in the output video.
