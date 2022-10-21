@@ -2,7 +2,7 @@
 **WASP_AS_M1_Umeå1**: Arka Ghosh,  Divya Baura,  Joannes Vermant, Julian Alfredo Mendez and Sabine Houy
 
 
-### Install OPenCV
+### Install ```OpenCV```
 
 ### There are two codes 
 
