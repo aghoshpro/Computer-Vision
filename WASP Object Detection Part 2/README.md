@@ -35,9 +35,15 @@ OpenCV needs a configuration file to import object detection models from TensorF
 
 
 ### Model Used
-[MobileNet-SSD v3](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API): SSD (Single Shot MultiBox Detector) is a popular algorithm in object detection which is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers.
+[**MobileNet-SSD v3**](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API): SSD (Single Shot MultiBox Detector) is a popular algorithm in object detection which is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers.
 
 By using SSD, we only need to take one single shot to detect multiple objects within the image, while regional proposal network (RPN) based approaches such as R-CNN series that need two shots, one for generating region proposals, one for detecting the object of each proposal. Thus, SSD is much faster compared with two-shot RPN-based approaches
+
+Significance of ‘**ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt**’ 
+This file is a pre-trained Tensorflow model and has already been trained on the COCO dataset.
+
+Significance of ‘**frozen_inference_graph.pb**’?
+Freezing is the process to identify and save all of required things(graph, weights etc) in a single file that you can easily use. Frozen graphs are commonly used for inference in TensorFlow and are stepping stones for inference for other frameworks
 
 ### Output
 
