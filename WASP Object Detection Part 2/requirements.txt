@@ -4,7 +4,7 @@
 ##
 
 ## NumPy [[https://numpy.org]]
-numpy~=1.19.5
+numpy>=1.22
 
 ## OpenCV [[https://pypi.org/project/opencv-python/]]
 opencv-python~=4.6.0.66

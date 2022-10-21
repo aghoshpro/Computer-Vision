@@ -1,4 +1,4 @@
-## WASP Object Detection Part 2 
+## WASP Object Detection Part 2
 **WASP_AS_M1_Umeå1**: Arka Ghosh,  Divya Baura,  Joannes Vermant, Julian Alfredo Mendez and Sabine Houy
 
 
@@ -6,15 +6,15 @@
 
 ```pip install opencv-python```
 
-We used ```opencv-python``` 4.6.0.66, which requires ```numpy``` 1.17.3 or later.
+We used ```opencv-python``` 4.6.0.66, which requires ```numpy``` 1.17.3 or later, but we used 1.22 or later.
 The requiremenets are included in ```requirements.txt```.
 
 
-### There are two codes 
+### There are two codes
 
 1. ```objectDetectionVideo.py```: The first one can take any video as an input and detect objects in the output video.
 
-2. ```objectDetectionWebCam.py```: This code can access webcam and detect the objects 
+2. ```objectDetectionWebCam.py```: This code can access webcam and detect the objects
 
 This particular project detects objects using the mobileNet SSD method. Therefore before proceeding, three files are a pre-requisite —---------
 * ‘coco.names’
