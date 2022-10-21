@@ -24,12 +24,8 @@ This particular project detects objects using the mobileNet SSD method. Therefor
 
 ### **Reading Materials**
 
-[Object Detection using SSD Mobilenet and Tensorflow Object Detection](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
-
-[FAQ on Object Detection Using SSD mobilenet](https://madhumitamenon.medium.com/faq-on-object-detection-using-ssd-mobilenet-b8bf31924601)
-************************************************************************************************************************************************************************
 [COCO (Common Objects In Context)](https://cocodataset.org/#home): is a set of challenging, high quality datasets for computer vision, mostly state-of-the-art neural networks. This name is also used to name a format used by those datasets.
-
+************************************************************************************************************************************************************************
 
 ### Dataset
 [Coco Names](https://github.com/nightrome/cocostuff/blob/master/labels.md): Contains lables of 182 objects that can be detected on the video stream.
@@ -48,5 +44,7 @@ https://user-images.githubusercontent.com/71174892/196672496-30e54277-dfee-425e-
 
 #### Output 02 (at 60% detection accuracy)
 https://user-images.githubusercontent.com/71174892/196671666-5cba1fa3-e1b7-4f75-83d9-a55d4e4aabe0.mp4
+
+#### WebCam Output (at 60% detection accuracy)
 
 
