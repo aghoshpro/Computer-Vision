@@ -1,5 +1,10 @@
-## WASP Object Detection Part 2 ([FAQ on Object Detection Using SSD mobilenet](https://madhumitamenon.medium.com/faq-on-object-detection-using-ssd-mobilenet-b8bf31924601))
+## WASP Object Detection Part 2 
 **WASP_AS_M1_Umeå1**: Arka Ghosh,  Divya Baura,  Joannes Vermant, Julian Alfredo Mendez and Sabine Houy
+
+
+### Install OPenCV
+
+### There are two codes ```objectDetectionVideo.py```
 
 This particular project detects objects using the mobileNet SSD method. Therefore before proceeding, three files are a pre-requisite —---------
 * ‘coco.names’
@@ -11,6 +16,7 @@ This particular project detects objects using the mobileNet SSD method. Therefor
 
 [Object Detection using SSD Mobilenet and Tensorflow Object Detection](https://medium.com/@techmayank2000/object-detection-using-ssd-mobilenetv2-using-tensorflow-api-can-detect-any-single-class-from-31a31bbd0691)
 
+[FAQ on Object Detection Using SSD mobilenet](https://madhumitamenon.medium.com/faq-on-object-detection-using-ssd-mobilenet-b8bf31924601)
 ************************************************************************************************************************************************************************
 [COCO (Common Objects In Context)](https://cocodataset.org/#home): is a set of challenging, high quality datasets for computer vision, mostly state-of-the-art neural networks. This name is also used to name a format used by those datasets.
 
