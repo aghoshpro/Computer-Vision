@@ -18,8 +18,11 @@ The requiremenets are included in ```requirements.txt```.
 
 This particular project detects objects using the mobileNet SSD method. Therefore before proceeding, three files are a pre-requisite —---------
 * ‘coco.names’
-* ‘ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt’
-* ‘frozen_inference_graph.pb’.
+* ‘ssd_mobilenet_v3_large_coco_2020_01_14.pbtxt’ (configurations)
+* ‘frozen_inference_graph.pb’ (weights)
+
+
+OpenCV needs a configuration file to import object detection models from TensorFlow. It's based on a text version of the same serialized graph in protocol buffers format (protobuf).
 
 
 ### **Reading Materials**
@@ -32,8 +35,9 @@ This particular project detects objects using the mobileNet SSD method. Therefor
 
 
 ### Model Used
-[MobileNet-SSD v3](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API): OpenCV needs an extra configuration file to import object detection models from TensorFlow. It's based on a text version of the same serialized graph in protocol buffers format (protobuf).
+[MobileNet-SSD v3](https://github.com/opencv/opencv/wiki/TensorFlow-Object-Detection-API): SSD (Single Shot MultiBox Detector) is a popular algorithm in object detection which is a single convolution network that learns to predict bounding box locations and classify these locations in one pass. Hence, SSD can be trained end-to-end. The SSD network consists of base architecture (MobileNet in this case) followed by several convolution layers.
 
+By using SSD, we only need to take one single shot to detect multiple objects within the image, while regional proposal network (RPN) based approaches such as R-CNN series that need two shots, one for generating region proposals, one for detecting the object of each proposal. Thus, SSD is much faster compared with two-shot RPN-based approaches
 
 ### Output
 
