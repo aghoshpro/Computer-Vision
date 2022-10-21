@@ -4,7 +4,11 @@
 
 ### Install OPenCV
 
-### There are two codes ```objectDetectionVideo.py```
+### There are two codes 
+
+1. ```objectDetectionVideo.py```: The first one can take any video as an input and detect objects in the output video.
+
+2. ```objectDetectionWebCam.py```: This code can access webcam and detect the objects 
 
 This particular project detects objects using the mobileNet SSD method. Therefore before proceeding, three files are a pre-requisite —---------
 * ‘coco.names’
