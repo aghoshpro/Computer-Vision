@@ -12,4 +12,6 @@
 ## Tutorials
 1. [OPENCV PYTHON TUTORIALS FOR BEGINNERS](https://github.com/murtazahassan/OpenCV-Python-Tutorials-and-Projects)
 
+2. [YOLO](https://opencv-tutorial.readthedocs.io/en/latest/yolo/yolo.html#yolo-object-detection): You Only Look Once — is an extremely fast multi object detection algorithm which uses convolutional neural network (CNN) to detect and identify objects.
+
 
