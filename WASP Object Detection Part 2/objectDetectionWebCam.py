@@ -6,8 +6,8 @@ video = cv2.VideoCapture(0) #Webcam ID 0 or 1
 detectionThresholdValue = 0.6 #0.6 means, detection accuracy 60%, if the model detects a PEN with equal or more than 50% accuracy then it will show the output
 
 # Video Output Ratio
-video.set(3, 640)
-video.set(4, 480)
+video.set(3, 1280)
+video.set(4, 720)
 
 # Importing list of categories from the coco.names
 categories=[]
@@ -29,7 +29,7 @@ weightsPath = 'frozen_inference_graph.pb'
 # Deep Neural Network (DNN) Model development
 model_01 = cv2.dnn_DetectionModel(weightsPath, configPath) #from openCV, few parameters can be changed from documentation
 
-#creating blob from the frames of the Video
+# Creating blob from the frames of the Video
 model_01.setInputSize(320, 320)  # input size that SSD models generally expect in almost all frameworks. It is the same for TensorFlow as well.
 model_01.setInputScale(1.0/ 127.5) # openCV docs
 model_01.setInputMean((127.5, 127.5, 127.5)) # means for 3 different channels where highest is 255
