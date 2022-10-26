@@ -4,10 +4,12 @@
 
 ### Install ```OpenCV```
 
-```pip install opencv-python```
+First ```pip3 install --upgrade pip```
+Second ```pip3 install opencv-python```
 
 We used ```opencv-python``` 4.6.0.66, which requires ```numpy``` 1.17.3 or later, but we used 1.22 or later.
 The requiremenets are included in ```requirements.txt```.
+
 
 
 ### There are two codes
